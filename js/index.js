@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const index = () => {
+ 
+    const [name, setName]= useState();
+
   return (
-    <div>index</div>
+    <div>
+        <h1>pagina principal {name} </h1>
+    </div>
   )
 }
 
